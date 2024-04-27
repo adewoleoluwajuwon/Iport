@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { useState } from "react";
 import HTML from './HTML'
 import CSS from './CSS'
-// import React from './React'
+import Reaact from './Reaact'
 
 
 const data = [
@@ -110,7 +110,7 @@ export default function Skills () {
           ) : skills === "CSS" ? (
             <CSS/>
           ) : (
-            <React/>
+            <Reaact/>
           )}
         </Right>
       </Container>

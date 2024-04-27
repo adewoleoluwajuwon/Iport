@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Stage } from "@react-three/drei";

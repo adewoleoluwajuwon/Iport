@@ -1,7 +1,8 @@
+import React from 'react';
 import styled from 'styled-components'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Stage } from "@react-three/drei";
-import ReactTD from '../components/3d/ReactTD'
+import ReactTD from './3d/ReactTD'
 
 const Desc = styled.div`
     width: 200px;
@@ -20,7 +21,7 @@ const Desc = styled.div`
 `;
 
 
-export default function React () {
+export default function Reaact () {
     return(
         <>        
             <Canvas>
