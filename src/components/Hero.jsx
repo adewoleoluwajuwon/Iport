@@ -99,8 +99,8 @@ const Right = styled.div`
 `;
 
 const Img = styled.img`
-  width: 500px;
-  height: 500px;
+  width: 35%;
+  border-radius: 50%;
   object-fit: contain;
   position: absolute;
   top: 0;
@@ -147,14 +147,14 @@ export default function Hero() {
             <directionalLight position={[3, 2, 1]} />
             <Sphere args={[1, 100, 200]} scale={2.5}>
               <MeshDistortMaterial 
-                color="#fff"
+                color="#1DA1F2"
                 attach="material"
                 distort={0.5}
                 speed={2}
               />
             </Sphere>
           </Canvas>
-          <Img src="./img/moon.png" />
+          <Img src="./img/nice.jpg" />
         </Right>
       </Container>
     </Section>
