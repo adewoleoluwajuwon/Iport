@@ -98,7 +98,7 @@ export default function Who() {
             <Line src="./img/line.png" />
             <Subtitle>Who am i?</Subtitle>
           </WhatIDo>
-          <Desc>A creative front-end developer with passion fo the arts.</Desc>
+          <Desc>A creative front-end developer with passion for the arts.</Desc>
           <Button>See my works</Button>
         </Right>
       </Container>
