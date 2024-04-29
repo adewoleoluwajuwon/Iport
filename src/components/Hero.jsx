@@ -35,6 +35,11 @@ const Container = styled.div`
     align-item: center;
     justify-content: center;
   }
+
+  @media only screen and (min-width: 769px){
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the section horizontally */
+  }
 `;
 //Left side of hero
 const Left = styled.div`
