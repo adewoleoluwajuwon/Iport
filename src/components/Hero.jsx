@@ -16,6 +16,11 @@ const Section = styled.div`
   @media only screen and (max-width: 768px){
     height: 150vh;
   }
+
+  @media only screen and (min-width: 769px){
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the section horizontally */
+  }
 `;
 const Container = styled.div`
   height: 100%;
