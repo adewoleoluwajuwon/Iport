@@ -10,6 +10,10 @@ const Section = styled.div`
     width: 100%;
     padding: 10px;
   }
+  /* Additional styles for larger screens */
+  @media only screen and (min-width: 769px){
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the sections horizontally */
 `;
 
 const Container = styled.div`
